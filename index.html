@@ -1,0 +1,35 @@
+<!DOCTYPE html><html><head>
+  <script src="p5.min.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+
+<script>
+        var firebaseConfig = {
+  apiKey: "AIzaSyCJuduaAIMM21Hw2MYi9XXi6wJxYK6C678",
+  authDomain: "fruit-ninja-aa899.firebaseapp.com",
+  databaseURL: "https://fruit-ninja-aa899-default-rtdb.firebaseio.com",
+  projectId: "fruit-ninja-aa899",
+  storageBucket: "fruit-ninja-aa899.appspot.com",
+  messagingSenderId: "406427374484",
+  appId: "1:406427374484:web:74949b339b801c5e7f7581"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+</head>
+
+<body>
+  <script src="form.js"></script>
+  <script src="Game.js"></script>
+  <script src="player.js"></script>
+  <script src="sketch.js"></script>
+
+</body></html>
